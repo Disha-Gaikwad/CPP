@@ -13,9 +13,9 @@ Make sure you have the following installed on your system:
 
 ✅ Install on Ubuntu/Debian-based systems:
 
-sudo apt update
+   sudo apt update
 
-sudo apt install g++
+   sudo apt install g++
 
 ✅ Install on Windows:
 
@@ -25,13 +25,13 @@ sudo apt install g++
 
 ✅ Install on macOS:
 
-xcode-select --install
+   xcode-select --install
 
 📥 Step 1: Clone the Repository
 
-git clone https://github.com/Disha-Gaikwad/CPP.git
+   git clone https://github.com/Disha-Gaikwad/CPP.git
 
-cd CPP
+   cd CPP
 
 📁 Step 2: Navigate to the Program Directory
 
@@ -43,7 +43,7 @@ cd programs/basic
 
 ⚙️ Step 3: Compile the Program
 
-g++ filename.cpp -o filename
+   g++ filename.cpp -o filename
 
 Example:
 
@@ -51,7 +51,7 @@ g++ hello.cpp -o hello
 
 ▶️ Step 4: Run the Executable
 
-./filename
+   ./filename
 
 Example:
 
@@ -59,14 +59,14 @@ Example:
 
 🧼 Clean Up (Optional)
 
-rm filename
+   rm filename
 
 🧠 Notes
 
 If your program includes multiple .cpp or .h files, compile like this:
 
-g++ file1.cpp file2.cpp -o output
+   g++ file1.cpp file2.cpp -o output
 
 For C++17 or later:
 
-g++ -std=c++17 filename.cpp -o filename
+   g++ -std=c++17 filename.cpp -o filename
